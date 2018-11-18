@@ -1,0 +1,26 @@
+{
+  "name": "wooresttest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon ./bin/www",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cookie-parser": "^1.4.3",
+    "debug": "~2.6.9",
+    "express": "^4.16.3",
+    "http-errors": "^1.7.1",
+    "morgan": "^1.9.1",
+    "npm-woocommerce-api": "^1.0.7",
+    "pug": "2.0.0-beta11",
+    "read-excel-file": "^2.0.5",
+    "woocommerce-api": "^1.4.2"
+  },
+  "devDependencies": {
+    "nodemon": "^1.17.5"
+  }
+}
